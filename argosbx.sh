@@ -645,7 +645,7 @@ cat >> "$HOME/agsbx/xr.json" <<EOF
             "tag": "vmess-xr",
             "listen": "::",
             "port": ${port_vm_ws},
-            "protocol": "vless",
+            "protocol": "vmess",
             "settings": {
                 "clients": [
                     {
